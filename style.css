@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2a95ed;
+    font-family: "Arimo", sans-serif;
+    color: #293251;
+}
+.container {
+    background: #fff;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 10px;
+    /* padding-bottom: 50px; */
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.app-title h1 {
+    text-align: center;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+.search {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.search input {
+    width: 20vw;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background: #e8f0fe;
+}
+.search button {
+    cursor: pointer;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 1vw;
+    width: 35%;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background: #898989b8;
+    border-radius: 10px;
+}
+.more-info {
+    width: 40%;
+}
+.temperature {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 10px;
+}
+.summary {
+    background: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.place {
+    font-size: 10px;
+    /* padding-bottom: 50px; */
+}
+.additional-info {
+    background: #2a95edb3;
+    font-size: 16px;
+    padding: 10px 15px;
+    width: 19vw;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.info-title {
+    font-family: "Comic Neue", cursive;
+    padding-bottom: 15px;
+}
+.info li {
+    /* font-weight: 600; */
+    font-size: 13px;
+    padding-bottom: 5px;
+    list-style: none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.column-1,
+.column-2 {
+    display: flex;
+}
+.col-1,
+.col-3 {
+    padding-right: 20px;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between;
+}
+.time h1,
+.time h3 {
+    font-size: 15px;
+}
+.current-time,
+.city-time {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+.current-time {
+    background: #fff28f;
+}
+.city-time {
+    background: #c1c8ff;
+}
+.themes {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.light,
+.dark {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 15px 20px; */
+    border-radius: 10px;
+    text-align: left;
+    width: 50px;
+    /* height: 30px; */
+    padding: 15px;
+    align-items: center;
+}
+.light {
+    background: #fff28f;
+}
+.dark {
+    background: #c1c8ff;
+}
+
+.light img,
+.dark img {
+    width: 20px;
+}
